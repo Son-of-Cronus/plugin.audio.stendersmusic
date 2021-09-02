@@ -1,6 +1,6 @@
 import sys
-import xbmcgui
-import xbmcplugin
+
+from kodi_six import xbmcplugin, xbmcgui
 
 	
 def addMenuItem(strName, strUrl, bIsPlayable='true', icon=None, fanart=None):
