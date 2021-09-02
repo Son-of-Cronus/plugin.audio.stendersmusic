@@ -1,0 +1,33 @@
+<?xml version="1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.stendersmusic" version="0.0.3" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="start.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="nl_NL">Stenders Music Service radiostreams plugin</summary>
+		<description lang="nl_NL">Luister eenvoudig naar alle Stenders radiostreams. Mist u een stream? Laat het ons weten op github.</description>
+		<disclaimer lang="nl_NL">Dislaimer: De Stenders Music Service add-on bevat enkel openbare radiostreams.</disclaimer>
+		<language>nl</language>
+		<platform>all</platform>
+		<license>GPL-3.0-or-later</license>
+		<website>https://github.io/</website>
+		<source>https://github.com/</source>
+		<news>[B]Releasenotes V0.0.1 (27 Januari 2021)[/B]
+		[COLOR green]Toegevoegd: Stenders Music Service
+		Toegevoegd: IceRadio[/COLOR]
+		[COLOR orange]Gewijzigd: KX Radio[/COLOR]
+		[COLOR red] Verwijderd: Freakolympics[/COLOR]
+		[B]Releasenotes V0.0.2 (16 Augustus 2021)[/B]
+		[COLOR orange]Gewijzigd: Radio Veronica[/COLOR]
+		[B]Releasenotes V0.0.3 (26 Augustus 2021)[/B]
+		[COLOR orange]Gewijzigd: Python 3 Kodi v19+ Matrix[/COLOR]</news>
+        	<assets>
+			<icon>resources/icon.png</icon>
+            		<fanart>resources/fanart.jpeg</fanart>
+            		<logo>resources/logo.png</logo>
+        	</assets>
+	</extension>
+</addon>
