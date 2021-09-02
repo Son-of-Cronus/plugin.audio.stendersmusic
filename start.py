@@ -17,23 +17,24 @@
 
 import os
 import sys
-import xbmc
-import xbmcaddon
+
 import urllib.parse
+
+from kodi_six import xbmc, xbmcaddon, xbmcvfs
 
 from resources.lib import xbmcutil
 
-__addon__ 		= xbmcaddon.Addon()
+__addon__ 		    = xbmcaddon.Addon()
 __author__  		= __addon__.getAddonInfo('author')
 __addon_id__		= __addon__.getAddonInfo('id')
-__addon_name__ 	= __addon__.getAddonInfo('name')
+__addon_name__ 	    = __addon__.getAddonInfo('name')
 __addon_path__	   	= __addon__.getAddonInfo('path')
 __addon_version__	= __addon__.getAddonInfo('version')
 __addon_fanart__	= __addon__.getAddonInfo('fanart')
 __addon_icon__		= __addon__.getAddonInfo('icon')
 __country_code__	= 'NL'
 
-__profile__		= xbmc.translatePath(__addon__.getAddonInfo('profile').decode('utf-8'))
+__profile__		    = xbmc.translatePath(__addon__.getAddonInfo('profile').decode('utf-8'))
 
 args = urllib.parse.parse_qs(sys.argv[2][1:])
 
