@@ -42,7 +42,7 @@ addon_handle=int(sys.argv[1])
 xbmcutil.addon_handle=addon_handle
 
 __settings__= xbmcaddon.Addon(id='plugin.audio.stendersmusic')
-rootDir = xbmc.translatePath(__settings__.getAddonInfo('path').decode('utf-8'))
+rootDir = xbmc.translatePath(__settings__.getAddonInfo('path'))
 streamDir = os.path.join(rootDir, "streams")
 
 def browse(strDir):
