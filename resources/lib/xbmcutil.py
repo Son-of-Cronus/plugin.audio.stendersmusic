@@ -1,14 +1,13 @@
 import sys
 
 from kodi_six import xbmcplugin, xbmcgui
-
 	
 def addMenuItem(strName, strUrl, bIsPlayable='true', icon=None, fanart=None):
     li = xbmcgui.ListItem(strName)
     if not icon is None :
         iconPath = icon
         li = xbmcgui.ListItem(label=strName)
-	li.setArt({'iconImage':'iconPath', 'thumbnailImage':'iconPath'})
+	li.setArt({'iconImage' : 'iconPath','thumbnailImage' : 'iconPath'})
     else :
         li = xbmcgui.ListItem(strName)
     if not fanart is None :
