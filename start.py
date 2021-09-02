@@ -25,16 +25,16 @@ from kodi_six import xbmc, xbmcaddon, xbmcvfs
 from resources.lib import xbmcutil
 
 __addon__               = xbmcaddon.Addon()
-__author__          = __addon__.getAddonInfo('author')
+__author__              = __addon__.getAddonInfo('author')
 __addon_id__		= __addon__.getAddonInfo('id')
-__addon_name__ 	    = __addon__.getAddonInfo('name')
+__addon_name__ 	        = __addon__.getAddonInfo('name')
 __addon_path__	   	= __addon__.getAddonInfo('path')
 __addon_version__	= __addon__.getAddonInfo('version')
 __addon_fanart__	= __addon__.getAddonInfo('fanart')
 __addon_icon__		= __addon__.getAddonInfo('icon')
 __country_code__	= 'NL'
 
-__profile__         = xbmc.translatePath(__addon__.getAddonInfo('profile'))
+__profile__             = xbmc.translatePath(__addon__.getAddonInfo('profile'))
 
 args = urllib.parse.parse_qs(sys.argv[2][1:])
 
