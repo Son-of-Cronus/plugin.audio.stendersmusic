@@ -17,11 +17,8 @@
 
 import os
 import sys
-
 import urllib.parse
-
 from kodi_six import xbmc, xbmcaddon, xbmcvfs
-
 from resources.lib import xbmcutil
 
 __addon__               = xbmcaddon.Addon()
