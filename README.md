@@ -18,4 +18,4 @@ Stenders Music Service is licensed under a GNU General Public License v3.0, see:
 ## Disclaimer
 Stenders Music Service is not connected to or in any other way affiliated with Rob Stenders, Kodi, Team Kodi or the XBMC Foundation. Furthermore, any software, addons, or products offered by Stenders Music Service will only receive support in its Github repository.
 
-We, the Stenders Music Service team, are not responsible for any content that is displayed using the Stenders Music Service Framework.
+We, the Stenders Music Service team, are not responsible for any content that is accessible using the Stenders Music Service Framework.
