@@ -9,7 +9,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="nl_NL">Stenders Music Service radiostreams plugin</summary>
-		<description lang="nl_NL">Luister eenvoudig naar alle Stenders radiostreams. Mist u een stream? Laat het ons weten op github.</description>
+		<description lang="nl_NL">Luister eenvoudig naar alle Stenders radiostreams, voor mensen met elastieke oren. Mist u een stream? Laat het ons weten op github.</description>
 		<disclaimer lang="nl_NL">Dislaimer: De Stenders Music Service add-on bevat enkel openbare radiostreams.</disclaimer>
 		<language>nl</language>
 		<platform>all</platform>
