@@ -1,5 +1,5 @@
 <?xml version="1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.stendersmusic" version="0.0.3" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
+<addon id="plugin.audio.stendersmusic" version="0.0.4" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.kodi-six" />
@@ -24,7 +24,9 @@
 		[B]Releasenotes V0.0.2 (16 Augustus 2021)[/B]
 		[COLOR orange]Gewijzigd: Radio Veronica[/COLOR]
 		[B]Releasenotes V0.0.3 (26 Augustus 2021)[/B]
-		[COLOR orange]Gewijzigd: Python 3 Kodi v19+ Matrix[/COLOR]</news>
+		[COLOR orange]Gewijzigd: Code en folder optimalisatie voor python 3 upgrade[/COLOR]
+		[B]Releasenotes V0.0.4 (3 September 2021)[/B]	
+		[COLOR orange]Gewijzigd: Update naar Python 3 Kodi v19+ Matrix[/COLOR]</news>
         	<assets>
 			<icon>resources/icon.png</icon>
             		<fanart>resources/fanart.jpeg</fanart>
