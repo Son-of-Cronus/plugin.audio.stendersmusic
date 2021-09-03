@@ -1,5 +1,5 @@
 # plugin.audio.stendersmusic
-This repository holds the main code for the Stenders Music Service kodi addon. Issues regarding this script can be submitted at our issue tracker at GitHub. For more information on bug reporting, please visit https://github.com/Son-of-Cronos/plugin.audio.stendersmusic 
+This repository holds the main code for the Stenders Music Service kodi addon. Issues regarding this script can be submitted at our issue tracker at GitHub. For more information on bug reporting, please visit https://github.com/Son-of-Cronus/plugin.audio.stendersmusic 
 ## Introduction
 Stenders Music Service is a Kodi audio add-on which allows you to listen and sometimes watch streams of the infamous Dutch D.J. Rob Stenders.
 ## Installing Stender Music Service
