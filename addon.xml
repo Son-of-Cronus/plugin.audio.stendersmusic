@@ -16,18 +16,17 @@
 		<license>GPL-3.0-or-later</license>
 		<website>https://github.io/</website>
 		<source>https://github.com/Son-of-Cronus/plugin.audio.stendersmusic</source>
-		<news>[B]Releasenotes V0.0.1 (27 Januari 2021)[/B]
-		[COLOR green]Toegevoegd: Stenders Music Service
-		Toegevoegd: IceRadio[/COLOR]
-		[COLOR orange]Gewijzigd: KX Radio[/COLOR]
+		<news>[B]Releasenotes V0.0.4 (3 September 2021)[/B]	
+		[COLOR orange]Gewijzigd: Update naar Kodi v19+ Matrix en Python 3
+		Gewijzigd: KX Radio[/COLOR]
 		[COLOR red] Verwijderd: Freakolympics[/COLOR]
-		[B]Releasenotes V0.0.2 (16 Augustus 2021)[/B]
-		[COLOR orange]Gewijzigd: Radio Veronica[/COLOR]
 		[B]Releasenotes V0.0.3 (26 Augustus 2021)[/B]
 		[COLOR orange]Gewijzigd: Code en folder optimalisatie voor python 3 upgrade[/COLOR]
-		[B]Releasenotes V0.0.4 (3 September 2021)[/B]	
-		[COLOR orange]Gewijzigd: Update naar Python 3 Kodi v19+ Matrix[/COLOR]</news>
-        	<assets>
+		[B]Releasenotes V0.0.2 (16 Augustus 2021)[/B]
+		[COLOR orange]Gewijzigd: Radio Veronica[/COLOR]
+		[B]Releasenotes V0.0.1 (27 Januari 2021)[/B]
+		[COLOR green]Toegevoegd: Stenders Music Service
+		Toegevoegd: IceRadio[/COLOR]</news>
 			<icon>resources/icon.png</icon>
             		<fanart>resources/fanart.jpeg</fanart>
             		<logo>resources/logo.png</logo>
