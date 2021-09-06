@@ -17,8 +17,9 @@
 
 import os
 import sys
-import urllib.parse
-from kodi_six import xbmc, xbmcaddon, xbmcvfs
+import urlparse
+import xbmc
+import xbmcaddon
 from resources.lib import xbmcutil
 
 __addon__               = xbmcaddon.Addon()
@@ -39,7 +40,7 @@ addon_handle=int(sys.argv[1])
 xbmcutil.addon_handle=addon_handle
 
 __settings__= xbmcaddon.Addon(id='plugin.audio.stendersmusic')
-rootDir = xbmc.translatePath(__settings__.getAddonInfo('path'))
+rootDir = xbmc.translatePath(__settings__.getAddonInfo('path')).decode('utf-8')
 streamDir = os.path.join(rootDir, "streams")
 
 def browse(strDir):
