@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
-
-from kodi_six import xbmcplugin, xbmcgui
+import xbmcgui
+import xbmcplugin
 
 
 def addMenuItem(
