@@ -1,5 +1,5 @@
 <?xml version="1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.stendersmusic" version="0.0.4" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
+<addon id="plugin.audio.stendersmusic" version="0.0.5" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.kodi-six" />
