@@ -1,5 +1,5 @@
 <?xml version="1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.stendersmusic" version="0.0.4" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
+<addon id="plugin.audio.stendersmusic" version="0.0.5" name="Stenders Music Service" provider-name="[COLOR blue][B]Blue Sun Corporation[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.kodi-six" />
@@ -16,7 +16,10 @@
 		<license>GPL-3.0-or-later</license>
 		<website>https://github.io/</website>
 		<source>https://github.com/Son-of-Cronus/plugin.audio.stendersmusic</source>
-		<news>[B]Releasenotes V0.0.4 (4 September 2021)[/B]	
+		<news>B]Releasenotes V0.0.5 (7 September 2021)[/B]
+		[COLOR green]Toegevoegd: XL Alternative[/COLOR]
+		[COLOR red] Verwijderd: KX Edge[/COLOR]
+		[B]Releasenotes V0.0.4 (4 September 2021)[/B]	
 		[COLOR orange]Gewijzigd: Update naar Kodi v19+ Matrix en Python 3[/COLOR]
 		[COLOR red] Verwijderd: Freakolympics[/COLOR]
 		[B]Releasenotes V0.0.3 (26 Augustus 2021)[/B]
