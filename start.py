@@ -20,7 +20,7 @@ import sys
 import urlparse
 import xbmc
 import xbmcaddon
-from resources.lib import xbmcutil
+resources.lib import xbmcutil
 
 __addon__               = xbmcaddon.Addon()
 __author__              = __addon__.getAddonInfo('author')
